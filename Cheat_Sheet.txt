@@ -1,0 +1,2 @@
+Instanzmethode aufrufen: -> e.g. p1->printInformation()
+Klassenmethode aufrufen: :: (Doppelpunkt) e.g. Person::Anzahl_Personen
