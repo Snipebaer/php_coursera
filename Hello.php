@@ -16,4 +16,10 @@ class Hello
     }
 }
 
+$hi = new Hello("FR");
+echo $hi->greet() . "</br>";
+
+$cool = new Hello("EN");
+echo $cool->greet() . "</break>";
+
 ?>
