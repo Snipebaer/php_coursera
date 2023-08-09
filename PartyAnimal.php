@@ -5,29 +5,29 @@ class PartyAnimal
 
     function __construct()
     {
-        echo ("Constructed\n");
+        echo ("Constructed</br>");
     }
 
     function something()
     {
-        echo ("Something\n");
+        echo ("Something</br>");
     }
 
     function __destruct()
     {
-        echo ("Destructed\n");
+        echo ("Destructed</br>");
     }
 }
 
-echo("--One\n");
+echo("--One</br>");
 $x = new PartyAnimal();
 
-echo("--Two\n");
+echo("--Two</br>");
 $y = new PartyAnimal();
 
-echo("--Three\n");
+echo("--Three</br>");
 $x->something();
 
-echo("--The end?\n");
+echo("--The end?</br>");
 
 ?>
