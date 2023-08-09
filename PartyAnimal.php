@@ -5,8 +5,19 @@ class PartyAnimal
 
     function __construct()
     {
-        echo "constructed";
+        echo ("Constructed\n");
     }
+
+    function something()
+    {
+        echo ("Something\n");
+    }
+
+    function __destruct()
+    {
+        echo ("Destructed\n");
+    }
+
 
 
 
