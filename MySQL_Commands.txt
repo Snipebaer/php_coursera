@@ -1,1 +1,16 @@
 start mysql from terminal: .\mysql.exe -h localhost -u root -p
+
+show databases; // Liste der vorhandenen Datenbanken
+
+describe table_name; // Tabelle anzeigen
+
+use database_name; // Datenbank auswählen
+
+"system cls" // clear console
+
+select current_user();
+
+GRANT ALL ON misc.* TO 'kilian'@'localhost' IDENTIFIED BY 'zap';
+
+
+$pdo = new PDO('mysql:host=localhost;port=3306;dbname=misc', 'root', 'root'); // PHP code to establish a connection to mysql
